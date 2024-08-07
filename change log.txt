@@ -1,0 +1,6 @@
+fixed low hp indicator remain stuck after respawn (FINNALY)
+reworks on pl and plr visuals
+reworks on cp visuals
+added speedometer options
+added weapon transparency options
+added damage indicator customizations

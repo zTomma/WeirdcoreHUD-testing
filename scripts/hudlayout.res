@@ -1,8 +1,21 @@
 
-#base "..\_customization\resolution\drop resolution here\4x3.res"
-#base "..\_customization\resolution\drop resolution here\16x9.res"
+#base "../_customizations/weapontransparency/weapontransparency.res"
+#base "../_customizations/speedometer/speedometer.res"
+
 "Resource/HudLayout.res"
 {
+
+	CDamageAccountPanel
+	{
+		"fieldName"				"CDamageAccountPanel"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"480"
+		"visible" 				"1"
+		"enabled" 				"1"
+		"PaintBackgroundType"	"2"
+	}
 	
 	HudPlayerStatus
 	{
@@ -236,18 +249,7 @@
 		"PaintBackgroundType"	"2"
 	}
 	
-	CDamageAccountPanel
-	{
-		"fieldName"				"CDamageAccountPanel"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"480"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
-	}
-	
+
 	
 	DisguiseStatus
 	{
@@ -1506,6 +1508,10 @@
 		"mouseinputenabled"		"0"
 		"alpha"					"100"
 	}
+
+
+
+
 }
 
 

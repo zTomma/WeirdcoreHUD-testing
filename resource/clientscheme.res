@@ -3392,6 +3392,17 @@ Scheme
 			}
 		}
 
+		"pixel11"
+		{
+			"1"
+			{
+				"name"		"Upheaval TT -BRK-"
+				"tall"		"11"
+				"antialias" "1"
+			}
+		}
+
+
 		"pixel30outline"
 		{
 			"1"
@@ -3401,7 +3412,77 @@ Scheme
 				"outline"	"1"
 			}
 		}
+
+		"pixel8outline"
+		{
+			"1"
+			{
+				"name"		"Upheaval TT -BRK-"
+				"tall"		"8"
+				"outline"	"1"
+			}
+		}
+
+		"pixel10outline"
+		{
+			"1"
+			{
+				"name"		"Upheaval TT -BRK-"
+				"tall"		"10"
+				"outline"	"1"
+			}
+		}
+
+		"pixel15outline"
+		{
+			"1"
+			{
+				"name"		"Upheaval TT -BRK-"
+				"tall"		"15"
+				"outline"	"1"
+			}
+		}
 		
+		"pixel20outline"
+		{
+			"1"
+			{
+				"name"		"Upheaval TT -BRK-"
+				"tall"		"20"
+				"outline"	"1"
+			}
+		}
+
+		"pixel40outline"
+		{
+			"1"
+			{
+				"name"		"Upheaval TT -BRK-"
+				"tall"		"40"
+				"outline"	"1"
+			}
+		}
+
+		"pixel50outline"
+		{
+			"1"
+			{
+				"name"		"Upheaval TT -BRK-"
+				"tall"		"50"
+				"outline"	"1"
+			}
+		}
+
+		"pixel80outline"
+		{
+			"1"
+			{
+				"name"		"Upheaval TT -BRK-"
+				"tall"		"80"
+				"outline"	"1"
+			}
+		}
+
 		"pixel20"
 		{
 			"1"
@@ -3452,7 +3533,27 @@ Scheme
 			}
 		}
 		
+		"pixel80"						
+		{
+			"1"
+			{
+				"name"		"Upheaval TT -BRK-"
+				"tall"		"80"
+				"antialias" "1"
+			}
+		}
 		
+		"pixel120"						
+		{
+			"1"
+			{
+				"name"		"Upheaval TT -BRK-"
+				"tall"		"120"
+				"antialias" "1"
+			}
+		}
+		
+
 		"HotRushStripped10"
 		{
 			"1"
