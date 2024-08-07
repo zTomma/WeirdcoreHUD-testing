@@ -38,7 +38,7 @@ Scheme
 		"color9"			"138 175 232 255"	
 
 		////////damage colors////// EDIT DAMAGE1 FOR CUSTOM COLOR
-		"damage1"		"255 255 255"
+		"damage1"		"255 255 255 255"
 		"damage2"		"0 0 0 255"
 		"damage3"		"178 77 99 255"
 		"damage4"		"160 146 197 255"	
