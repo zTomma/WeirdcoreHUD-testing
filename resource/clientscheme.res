@@ -3392,6 +3392,16 @@ Scheme
 			}
 		}
 
+		"pixel17"
+		{
+			"1"
+			{
+				"name"		"Upheaval TT -BRK-"
+				"tall"		"17"
+				"antialias" "1"
+			}
+		}
+
 		"pixel11"
 		{
 			"1"
@@ -3873,6 +3883,16 @@ Scheme
 			}
 		}		
 		
+			"JusticeLaser4k"
+		{
+			"1"
+			{
+				"name"		"Justice Laser Big Regular"
+				"tall"		"120"
+				"antialias" "1"
+			}
+		}	
+
 	"JusticeLaserblur120"
 		{
 			"1"
@@ -3909,6 +3929,16 @@ Scheme
 			"1"
 			{
 				"name"		"Justice Halftone"
+				"tall"		"120"
+				"antialias" "1"
+			}
+		}		
+
+		"JusticeHalf4k"
+		{
+			"1"
+			{
+				"name"		"Justice Halftone Big regular"
 				"tall"		"120"
 				"antialias" "1"
 			}
@@ -7168,6 +7198,18 @@ Scheme
 		{
 			"font" "resource/fonts/clacon2.ttf"
 			"name" "Classic Console Neue"
+		}
+
+			"25"
+		{
+			"font" "resource/fonts/JusticeHalftoneBig-Regular.ttf"
+			"name" "Justice Halftone Big Regular"
+		}
+
+			"26"
+		{
+			"font" "resource/fonts/JusticeLaserBig-Regular.ttf"
+			"name" "Justice Laser Big Regular"
 		}
 
 

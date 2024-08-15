@@ -1,9 +1,63 @@
 #base "../../_customizations/LowHP/LowHP.res"
 #base "../../_customizations/Plushp/PlusHP.res"
+#base "../../_customizations/fonts/fonts_health.res"
+#base "../../_customizations/ratio/ratio_health.res"
+
+
  "Resource/UI/HudPlayerHealth.res"
 {	
 	// player health data
 	
+
+	 "PlayerStatusHealthValue"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValue"
+		"xpos"			"44"
+		"xpos_minmode"	"46"
+		"ypos"			"-56"	[$WIN32]
+		"ypos_minmode"	"-55"	
+		"zpos"			"5"
+		"wide"			"200"
+		"tall"			"70"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"fgcolor"		"purple1"
+		"scaleImage"	"1"	
+		"pin_to_sibling" "PlayerStatusHealthImageBG"
+		"pin_corner_to_sibling" "PIN_bottomleft"
+		"pin_to_sibling_minmode" "HudPlayerHealthcontainer_minmode"
+		"pin_corner_to_sibling_minmode" "PIN_bottomleft"
+	}
+
+
+	"PlayerStatusHealthValueBG"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueBG"
+		"xpos"			"42"
+		"xpos_minmode"	"9999"
+		"ypos"			"-58"	[$WIN32]
+		"ypos_minmode"	"-55"	[$WIN32]
+		"zpos"			"4"
+		"wide"			"200"
+		"tall"			"70"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		
+		"font_minmode"			"JusticeLaser120"
+		"fgcolor"		"WHUDdarkpurple"
+		"fgcolor_minmode"		"WHUDblack"
+		"pin_to_sibling" "PlayerStatusHealthImageBG"
+		"pin_corner_to_sibling" "PIN_bottomleft"
+		"pin_to_sibling_minmode" "HudPlayerHealthcontainer_minmode"
+		"pin_corner_to_sibling_minmode" "PIN_bottomleft"
+		
+	}
 		"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
@@ -23,6 +77,24 @@
 		"scaleImage"	"1"	
 	}
 
+ 	"PlayerStatusHealthImageBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthImageBG"
+		"xpos_minmode"	"999"
+		"ypos"			"179"
+		"zpos"			"3"
+		"wide"			"125"
+		"tall"			"57"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/match/health_bg"
+
+		"scaleImage"	"1"	
+
+		
+		
+	}	
 
 
 	"HudPlayerHealthcontainer_minmode"
@@ -41,6 +113,7 @@
 		"scaleImage"			"1"	
 		"fillcolor"			"0 0 0 255"
 		"alpha"			"200"
+	
 	}
 
 	"HudPlayerHealthcontainer_minmodeteam"
@@ -81,126 +154,7 @@
 		"scaleImage"	"1"	
 
 	}		
-	"PlayerStatusHealthImageBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"40"
-		"xpos_minmode"	"999"
-		"ypos"			"179"
-		"zpos"			"3"
-		"wide"			"125"
-		"tall"			"57"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/match/health_bg"
-
-		"scaleImage"	"1"	
-	}	
-
-
-	"LowHpBG" 
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"LowHpBG"
-		"xpos"			"0"
-		"xpos_minmode"	"0"
-		"ypos"			"40"
-		"zpos"			"3"
-		"wide"			"f0"
-		"tall"			"f0"
-		"alpha"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"replay/thumbnails/match/low_hp_screen"
-		"scaleImage"	"1"	
-	}
 	
-	"PlayerStatusHealthValue"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"-4"
-		"xpos_minmode"	"61"
-		"ypos"			"165"	[$WIN32]
-		"ypos_minmode"	"c45"	
-		"zpos"			"5"
-		"wide"			"200"
-		"tall"			"70"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"center"	
-		"font"			"JusticeHalf120"
-		"fgcolor"		"purple1"
-		"scaleImage"	"1"	
-	}
-
-
-	"PlayerStatusHealthValueBG"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueBG"
-		"xpos"			"-2"
-		"xpos_minmode"	"9999"
-		"ypos_minmode"	"c62"
-		"ypos"			"167"	[$WIN32]
-		"zpos"			"4"
-		"wide"			"200"
-		"tall"			"70"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"center"	
-		
-		"font"			"JusticeLaser120"
-		"font_minmode"			"JusticeLaser120"
-		"fgcolor"		"WHUDdarkpurple"
-		"fgcolor_minmode"		"WHUDblack"
-	}
-
-
-	"PlayerStatusHealthValueDYING"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueDYING"
-		"xpos"			"-4"
-		"xpos_minmode"	"61"
-		"ypos"			"165"	[$WIN32]
-		"ypos_minmode"	"c60"	
-		"zpos"			"5"
-		"wide"			"200"
-		"tall"			"70"
-		"scanlines"		"2"
-		"visible"		"1"
-		"alpha"			"0"
-		"enabled"		"1"
-		"scanlines"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"center"	
-		"font"			"JusticeHalf120scan"
-		"fgcolor"		"WHUDred"
-	}
-	"PlayerStatusHealthValueDYINGBG"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueDYINGBG"
-		"xpos"			"-2"
-		"xpos_minmode"	"9999"
-		"ypos_minmode"	"c62"
-		"ypos"			"167"	[$WIN32]
-		"zpos"			"4"
-		"wide"			"200"
-		"tall"			"70"
-		"alpha"			"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"center"	
-		
-		"font"			"JusticeHalf120blur"
-		"fgcolor"		"WHUDdarkred"
-	}
 
 
 	"PlayerStatusHealthValueBGminmode"
@@ -208,8 +162,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueBGminmode"
 		"xpos"			"9999"
-		"xpos_minmode"	"63"
-		"ypos_minmode"	"c47"
+		"xpos_minmode"	"-2"
+		"ypos_minmode"	"-72"
 		"ypos"			"167"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"200"
@@ -218,6 +172,9 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
+
+		"pin_to_sibling" "PlayerStatusHealthValue"
+		"pin_corner_to_sibling" "PIN_bottomleft"
 		
 		"font"			"JusticeLaser120"
 		"font_minmode"			"JusticeLaser120"
@@ -231,8 +188,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueBG1"
 		"xpos"			"999"
-		"xpos_minmode"	"63"
-		"ypos_minmode"	"c47"
+		"xpos_minmode"	"-2"
+		"ypos_minmode"	"-72"
 		"ypos"			"170"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"200"
@@ -244,6 +201,8 @@
 		"blur"				"3"
 		"font"			"JusticeLaserblur120"
 		"fgcolor"		"WHUDblack"
+		"pin_to_sibling" "PlayerStatusHealthValue"
+		"pin_corner_to_sibling" "PIN_bottomleft"
 	}
 
 

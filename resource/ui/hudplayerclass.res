@@ -1,5 +1,6 @@
 #base "../../_customizations/playermodelbackgroundRED/playermodelbackgroundRED.res"
 #base "../../_customizations/playermodelbackgroundBLUE/playermodelbackgroundBLUE.res"
+#base "../../_customizations/ratio/playermodelbg.res"
 "Resource/UI/HudPlayerClass.res"
 {
 	// player class data
@@ -9,12 +10,9 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
-		"xpos"			"70"		[$WIN32]
 		"xpos_minmode"	"999"		[$WIN32]
 		"ypos"			"c80"	[$WIN32]
 		"ypos_minmode"		"r40"	[$WIN32]
-		"xpos"			"41"	[$X360]
-		"ypos"			"r82"	[$X360]
 		"zpos"			"3"		
 		"wide"			"165"
 		"tall"			"140"
@@ -23,18 +21,15 @@
 		"scaleImage"	"1"
 		"image"				"replay/thumbnails/playermodel_red"	
 
+
 	}
 	
 	"classmodelpanelBG2"
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"classmodelpanelBG"
-		"xpos"			"69"		[$WIN32]
-		"xpos_minmode"	"40"		[$WIN32]
-		"ypos"			"c84"	[$WIN32]
-		"ypos_minmode"		"r40"	[$WIN32]
-		"xpos"			"41"	[$X360]
-		"ypos"			"r82"	[$X360]
+		"fieldName"		"classmodelpanelBG1"
+		"xpos"			"0"		[$WIN32]
+		"ypos"			"-4"	[$WIN32]
 		"zpos"			"40"		
 		"wide"			"165"
 		"tall"			"135"
@@ -43,6 +38,33 @@
 		"scaleImage"	"1"
 		"image"				"replay/thumbnails/playermodel_border"	
 
+		"pin_to_sibling" "classmodelpanelBG"
+		"pin_corner_to_sibling" "PIN_topleft"
+
+	}
+
+	"PlayerStatusClassImageBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"PlayerStatusClassImageBG"
+		"xpos"			"-1"		[$WIN32]
+		"xpos_minmode"	"40"		[$WIN32]
+		"ypos"			"0"	[$WIN32]
+		"ypos_minmode"		"999"	[$WIN32]
+		"xpos"			"41"	[$X360]
+		"ypos"			"r82"	[$X360]
+		"zpos"			"2"		
+		"wide"			"165"
+		"tall"			"140"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"				"replay/thumbnails/playermodel_red"	
+		"pin_to_sibling" "classmodelpanelBG"
+		"pin_corner_to_sibling" "PIN_topleft"
+
+	
+		
 	}
 
 	"HudPlayerClass"
@@ -62,9 +84,9 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"75"	
+		"xpos"			"-15"	
 		"xpos_minmode"	"30"	
-		"ypos"			"305"	
+		"ypos"			"10"	
 		"ypos_minmode"	"r88"	
 		"zpos"			"5"		
 		"wide"			"135"
@@ -77,6 +99,9 @@
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
 		"scaleImage"	"1"	
+		"pin_to_sibling" "classmodelpanelBG"
+		"pin_corner_to_sibling" "PIN_topleft"
+
 	}
 	"PlayerStatusSpyImage"
 	{
@@ -126,7 +151,7 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"75"	
+		"xpos"			"-3"	
 		"xpos_minmode"	"0"	
 		"ypos"			"160"	
 		"ypos_minmode"	"r90"	
@@ -139,6 +164,9 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		"pin_to_sibling" "classmodelpanelBG"
+		"pin_corner_to_sibling" "PIN_topleft"
 		
 		"render_texture"	"0"
 		"fov"			"12"

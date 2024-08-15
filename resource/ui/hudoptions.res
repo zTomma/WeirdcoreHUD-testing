@@ -490,10 +490,10 @@
 		
 	}
 
-	"4x3"
+	"exitbutton"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"4x3button"
+		"fieldName"		"exitbutton"
 		"xpos"			"20"
 		"ypos"			"0"
 		"zpos"			"2"
@@ -504,12 +504,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"4:3"
+		"labelText"		"close menu"
 		"font"			"pixel8"
 		"border_default"    "noborder"
 		"textAlignment"	"center"
 		"dulltext"		"0"
-		"command"			"engine hud_poshealth_4x3; hud_playermodelbg_4x3"
+		"command"			"engine toggle cl_mainmenu_safemode"
 		"brighttext"	"0"
 		"default"		"0"
 		"fgcolor_override"		"violet"
@@ -520,74 +520,6 @@
 		"sound_depressed"	"UI/1.wav"
 
 		"pin_to_sibling"        "friendsbutton"
-        "pin_to_sibling_corner"     "PIN_TOPRIGHT"
-		
-	}
-
-	"16x10"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"16x10button"
-		"xpos"			"20"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"80"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"16:10"
-		"font"			"pixel8"
-		"border_default"    "noborder"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"command"			"engine hud_poshealth_16x10; hud_playermodelbg_16x10"
-		"brighttext"	"0"
-		"default"		"0"
-		"fgcolor_override"		"violet"
-		"PaintBackgroundType"	"0"
-		"actionsignallevel"		"4"
-		"armedBgColor_override"		"HUDdarkgray"	
-		"defaultBgColor_override"	"WHUDblack"
-		"sound_depressed"	"UI/1.wav"
-
-		"pin_to_sibling"        "4x3button"
-        "pin_to_sibling_corner"     "PIN_TOPRIGHT"
-		
-	}
-
-	"16x9"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"16x9button"
-		"xpos"			"20"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"80"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"16:9"
-		"font"			"pixel8"
-		"border_default"    "noborder"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"command"			"engine hud_poshealth_16x9; hud_playermodelbg_16x9"
-		"brighttext"	"0"
-		"default"		"0"
-		"fgcolor_override"		"violet"
-		"PaintBackgroundType"	"0"
-		"actionsignallevel"		"4"
-		"armedBgColor_override"		"HUDdarkgray"	
-		"defaultBgColor_override"	"WHUDblack"
-		"sound_depressed"	"UI/1.wav"
-
-		"pin_to_sibling"        "16x10button"
         "pin_to_sibling_corner"     "PIN_TOPRIGHT"
 		
 	}

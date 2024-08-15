@@ -8,4 +8,9 @@
 	{
 		"teambg_3"			"replay/thumbnails/playermodel_border"
 	}
+	"PlayerStatusClassImageBG"
+	{
+		"teambg_3"			"replay/thumbnails/playermodel_blu"
+	}
+		
 }

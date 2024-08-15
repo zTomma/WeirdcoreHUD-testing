@@ -17,7 +17,7 @@
 		"alpha"			"50"
 		"font"			"pixel10"
 		"fgcolor_override"	"WHUDwhite"
-		"labelText"		"WEIRDCOREHUD v2.0 aplha 1"
+		"labelText"		"WEIRDCOREHUD v2.0 aplha 2"
 		"textAlignment"	"est"
 
 	}
