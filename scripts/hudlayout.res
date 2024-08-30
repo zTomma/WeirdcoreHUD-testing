@@ -1,9 +1,15 @@
 
 #base "../_customizations/weapontransparency/weapontransparency.res"
 #base "../_customizations/speedometer/speedometer.res"
+#base "../_customizations/crosshair/crosshair.res"
+#base "../_customizations/crosshair/crosshairsize.res"
+#base "../_customizations/crosshair/crosshaircolor.res"
+
 
 "Resource/HudLayout.res"
 {
+
+
 
 	CDamageAccountPanel
 	{
