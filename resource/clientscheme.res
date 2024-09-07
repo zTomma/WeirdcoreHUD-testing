@@ -3047,6 +3047,8 @@ Scheme
 				"name"		"Jogan Soft"
 				"tall"		"10"
 				"antialias" "1"
+				"outline"	"1"
+
 			}
 		}
 
@@ -3057,7 +3059,7 @@ Scheme
 				"name"		"OpenBrush"
 				"tall"		"100"
 				"antialias" "1"
-			}
+			} 
 		}
 		"OpenBrushRegular5"
 		{
@@ -3658,6 +3660,126 @@ Scheme
 			"1"
 			{
 				"name"		"Weirdcorecrosshairs Regular"
+				"tall"		"50"
+				"antialias" "1"
+			}
+		}
+
+		"crosshair50"						
+		{
+			"1"
+			{
+				"name"		"Weirdcorecrosshairs Regular"
+				"tall"		"50"
+				"antialias" "1"
+			}
+		}
+
+			"hitmarker5"						
+		{
+			"1"
+			{
+				"name"		"Weirdcorehitmarker Regular"
+				"tall"		"5"
+				"antialias" "1"
+			}
+		}
+
+		"hitmarker10"						
+		{
+			"1"
+			{
+				"name"		"Weirdcorehitmarker Regular"
+				"tall"		"10"
+				"antialias" "1"
+			}
+		}
+
+		"hitmarker15"						
+		{
+			"1"
+			{
+				"name"		"Weirdcorehitmarker Regular"
+				"tall"		"15"
+				"antialias" "1"
+			}
+		}
+
+		"hitmarker20"						
+		{
+			"1"
+			{
+				"name"		"Weirdcorehitmarker Regular"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+
+		"hitmarker25"						
+		{
+			"1"
+			{
+				"name"		"Weirdcorehitmarker Regular"
+				"tall"		"25"
+				"antialias" "1"
+			}
+		}
+
+		"hitmarker30"						
+		{
+			"1"
+			{
+				"name"		"Weirdcorehitmarker Regular"
+				"tall"		"30"
+				"antialias" "1"
+			}
+		}
+
+		"hitmarker35"						
+		{
+			"1"
+			{
+				"name"		"Weirdcorehitmarker Regular"
+				"tall"		"35"
+				"antialias" "1"
+			}
+		}
+
+		"hitmarker40"						
+		{
+			"1"
+			{
+				"name"		"Weirdcorehitmarker Regular"
+				"tall"		"40"
+				"antialias" "1"
+			}
+		}
+
+		"hitmarker45"						
+		{
+			"1"
+			{
+				"name"		"Weirdcorehitmarker Regular"
+				"tall"		"45"
+				"antialias" "1"
+			}
+		}
+
+		"hitmarker50"						
+		{
+			"1"
+			{
+				"name"		"Weirdcorehitmarker Regular"
+				"tall"		"50"
+				"antialias" "1"
+			}
+		}
+
+		"hitmarker50"						
+		{
+			"1"
+			{
+				"name"		"Weirdcorehitmarker Regular"
 				"tall"		"50"
 				"antialias" "1"
 			}
@@ -7317,5 +7439,10 @@ Scheme
 			"name" "Weirdcorecrosshairs Regular"
 		}
 
+			"27"
+		{
+			"font" "resource/fonts/Weirdcorehitmarker-Regular.ttf"
+			"name" "Weirdcorehitmarker Regular"
+		}
 	}
 }

@@ -4,10 +4,16 @@
 #base "../_customizations/crosshair/crosshair.res"
 #base "../_customizations/crosshair/crosshairsize.res"
 #base "../_customizations/crosshair/crosshaircolor.res"
+#base "../_customizations/crosshair/crosshairresolution.res"
+#base "../_customizations/hitmarker/hitmarker.res"
+#base "../_customizations/hitmarker/hitmarkersize.res"
+#base "../_customizations/hitmarker/hitmarkercolor.res"
+#base "../_customizations/hitmarker/hitmarkerresolution.res"
 
 
 "Resource/HudLayout.res"
 {
+
 
 
 
@@ -277,7 +283,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"285"
+		"ypos"		"275"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -314,7 +320,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"300"
+		"ypos"		"280"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -1034,12 +1040,12 @@
 		"fieldName" 	"HudMenuSpyDisguise"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-235"
-		"ypos"			"c-160"
+		"xpos"			"c100"
+		"ypos"			"c-100"
 		"zpos"			"5"
-		"wide"			"470"
-		"tall"			"600"	[$WIN32]
-		"tall"			"180"	[$X360]
+		"wide"			"200"
+		"tall"			"300"	
+
 		"PaintBackgroundType"	"0"
 	}	
 	

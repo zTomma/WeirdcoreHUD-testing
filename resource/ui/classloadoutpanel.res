@@ -334,7 +334,7 @@
     {
         "ControlName"   "CExImageButton"
         "fieldName"     "RedButton"
-           "xpos"			"-28"
+           "xpos"			"-85"
 		"ypos"				"0"
         "zpos"              "12"    
         "wide"              "25"
@@ -369,7 +369,7 @@
         "image_armedcolor"      "255 255 255 255"
         "image_selectedcolor"   "255 255 255 255"
 
-		"pin_to_sibling" "blueButton"
+		"pin_to_sibling" "TauntLoadoutButton"
 		"pin_corner_to_sibling" "PIN_topleft"
     
         "SubImage"

@@ -5,7 +5,6 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"			"crosshair"
-			"xpos"				"c-427"
 			"ypos"				"c-240"
 			"zpos"				"1"
 			"wide"				"f0"

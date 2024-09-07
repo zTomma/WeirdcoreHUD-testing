@@ -805,7 +805,8 @@ event NotificationsPresentBlinkStop
 
 event DamagedPlayer
 {
-	// empty
+	Animate	hitmarker 	Alpha		"255"		Linear 0.0 0.0
+	Animate	hitmarker 	Alpha		"0"		Linear 0.0 0.95
 }
 
 //===========================================

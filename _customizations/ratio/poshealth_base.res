@@ -1,9 +1,9 @@
 "Resource/UI/HudPlayerHealth.res"
 {	
-    "PlayerStatusHealthImageBG"
+    "HudPlayerHealth"
 	{
 
-		"xpos"			"40"
+		"xpos"			"c-300"
 
 	}	
 
