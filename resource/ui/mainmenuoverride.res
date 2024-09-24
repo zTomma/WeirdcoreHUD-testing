@@ -2,6 +2,7 @@
 #base "../../_welcome/welcome_screen.res"
 #base "../../_version/version_title.res"
 #base "../../_customizations/friends/friends.res"
+#base "mainmenuoverride_backgrounds.res"
 
 "Resource/UI/MainMenuOverride.res"
 {

@@ -191,7 +191,7 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"620"
-		"tall"		"3000"
+		"tall"		"3500"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -13468,19 +13468,16 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"UtilitiesContainer"
 		"xpos"					"0"
-		"ypos"					"40"
+		"ypos"					"2901"
 		"zpos"					"99"
 		"wide"					"640"
-		"tall"					"200"
+		"tall"					"400"
 		"autoResize"		"0"
 		"pinCorner"		"1"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"PaintBackgroundType"	"0"
-
-		"pin_to_sibling"        "resolutionContainer"
-        "pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
 		
 	
 		"filler"
@@ -13719,37 +13716,7 @@
 		
 	}
 
-	"pluhbutton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"pluhbutton"
-		"xpos"			"0"
-		"ypos"			"15"
-		"zpos"			"35"
-		"wide"			"80"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"F"
-		"font"			"icons25"
-		"border_default"    "noborder"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"0"
-		"fgcolor_override"		"violet"
-		"PaintBackgroundType"	"0"
-		"armedBgColor_override"		"HUDdarkgray"	
-		"defaultBgColor_override"	"WHUDblack"
-		"sound_depressed"	"UI/pluh.wav"
-
-		"pin_to_sibling"        "ItemTestButton"
-        "pin_to_sibling_corner"     "PIN_bottomleft"
-		
-	}
+	
 
 	"friendsbutton"
 	{
@@ -14775,7 +14742,291 @@
 				"image_default"		"replay/thumbnails/buttons/UBER3"
 				"image_armed"		"replay/thumbnails/buttons/UBER_sel3"
 			}
+
+			
 	}
+
+			
+	}
+
+	"BackgroundContainer"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BackgroundContainer"
+		"xpos"					"0"
+		"ypos"					"-100"
+		"zpos"					"99"
+		"wide"					"640"
+		"tall"					"300"
+		"autoResize"		"0"
+		"pinCorner"		"1"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"PaintBackgroundType"	"0"
+
+		"pin_to_sibling"		"resolutionContainer"
+		
+	
+		"filler"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"filler"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"99"
+			"wide"					"f0"
+			"tall"					"40"
+			"visible"				"1"
+			"enabled"				"1"
+			"fillcolor"				"purple1"
+			"fgcolor_override"		"purple1"
+		}
+
+		"filler2"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"filler2"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"30"
+			"wide"					"f0"
+			"tall"					"f0"
+			"visible"				"1"
+			"enabled"				"1"
+			"fillcolor"				"0 0 0 150"
+			"fgcolor_override"		"0 0 0 150"
+		}
+
+		"Title"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"title"
+			"xpos"					"20"
+			"ypos"					"10"
+			"zpos"					"100"
+			"wide"					"360"
+			"tall"					"30"
+			"visible"				"1"
+			"enabled"				"1"
+			"font"					"pixel20"
+			"labeltext"				"Backgrounds"
+			"fgcolor"				"WHUDblack"
+
+			"pin_to_sibling"		"uberContainer"
+			"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+
+		}
+
+			"ScoutImage"
+			{
+				"ControlName"      "ImagePanel"
+				"fieldName"        "ScoutImage"
+				"xpos"             "15"
+				"ypos"             "15"
+				"zpos"             "100"
+				"wide"             "200"
+				"tall"             "112.5"
+				"visible"          "1"
+				"enabled"			"1"
+				"image"				"../console/background_scout"
+				"scaleImage"		"1"
+
+				"pin_to_sibling"		"Title"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+			}
+
+			
+			"ScoutButton"
+			{
+				"ControlName"	"CExImageButton"
+				"fieldName"		"ScoutButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"101"
+				"wide"			"200"
+				"tall"			"112.5"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"command"		"engine menu_bg_scout;  fullhudreload"
+				"actionsignallevel"		"6"
+				"labelText"		""
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"0 0 0 0"	
+
+				"pin_to_sibling"		"ScoutImage"
+			}
+
+			"DemoImage"
+			{
+				"ControlName"      "ImagePanel"
+				"fieldName"        "DemoImage"
+				"xpos"             "2"
+				"ypos"             "0"
+				"zpos"             "100"
+				"wide"             "200"
+				"tall"             "112.5"
+				"visible"          "1"
+				"enabled"			"1"
+				"image"				"../console/background_demo"
+				"scaleImage"		"1"
+
+				"pin_to_sibling"		"ScoutImage"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+			}
+
+			
+			"DemoButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"DemoButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"101"
+				"wide"			"200"
+				"tall"			"112.5"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"command"		"engine menu_bg_demo;  fullhudreload"
+				"actionsignallevel"		"6"
+				"labelText"		""
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"0 0 0 0"	
+
+				"pin_to_sibling"		"DemoImage"
+			}
+
+			"SpyImage"
+			{
+				"ControlName"      "ImagePanel"
+				"fieldName"        "SpyImage"
+				"xpos"             "2"
+				"ypos"             "0"
+				"zpos"             "100"
+				"wide"             "200"
+				"tall"             "112.5"
+				"visible"          "1"
+				"enabled"			"1"
+				"image"				"../console/background_spy"
+				"scaleImage"		"1"
+
+				"pin_to_sibling"		"DemoImage"
+				"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+			}
+
+			
+			"SpyButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"SpyButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"101"
+				"wide"			"200"
+				"tall"			"112.5"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"command"		"engine menu_bg_spy;  fullhudreload"
+				"actionsignallevel"		"6"
+				"labelText"		""
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"0 0 0 0"	
+
+				"pin_to_sibling"		"SpyImage"
+			}
+
+			"HudBannerImage"
+			{
+				"ControlName"      "ImagePanel"
+				"fieldName"        "HudBannerImage"
+				"xpos"             "0"
+				"ypos"             "2"
+				"zpos"             "100"
+				"wide"             "200"
+				"tall"             "112.5"
+				"visible"          "1"
+				"enabled"			"1"
+				"image"				"../console/background_hud"
+				"scaleImage"		"1"
+
+				"pin_to_sibling"		"ScoutImage"
+				"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
+			}
+
+			
+			"HudBannerButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"HudBannerButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"101"
+				"wide"			"200"
+				"tall"			"112.5"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"command"		"engine menu_bg_hudbanner;  fullhudreload"
+				"actionsignallevel"		"6"
+				"labelText"		""
+				
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"0 0 0 0"	
+
+				"pin_to_sibling"		"HudBannerImage"
+			}
+
+			"pluhbutton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"pluhbutton"
+				"xpos"			"10"
+				"ypos"			"-15"
+				"zpos"			"35"
+				"wide"			"80"
+				"tall"			"30"
+				"autoResize"	"0"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"labelText"		"F"
+				"font"			"icons25"
+				"border_default"    "noborder"
+				"textAlignment"	"center"
+				"dulltext"		"0"
+				"brighttext"	"0"
+				"default"		"0"
+				"fgcolor_override"		"violet"
+				"PaintBackgroundType"	"0"
+				"armedBgColor_override"		"HUDdarkgray"	
+				"defaultBgColor_override"	"WHUDblack"
+				"sound_depressed"	"UI/pluh.wav"
+
+				"pin_to_sibling"        "HudBannerImage"
+				"pin_to_sibling_corner"     "PIN_TOPRIGHT"
+				
+			}
+
+		
 	}
 
 	}
