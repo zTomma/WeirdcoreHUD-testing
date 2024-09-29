@@ -256,7 +256,7 @@ event HudHealthReset
 	Animate PlayerStatusHealthValueuber		fgcolor		"0 0 0 255"				Linear 0.000 0.000
 	Animate	PlayerStatusHealthBonusImag		Alpha		"0"						Spline 0.125 0.3
 	Animate PlayerStatusHealthValue			fgcolor		"purple1" 				Linear 0.000 0.000
-	Animate PlayerStatusHealthValueBG		fgcolor		"53 1 70 255" 			Linear 0.000 0.000
+	Animate PlayerStatusHealthValueBG		fgcolor		"WHUDdarkpurple" 			Linear 0.000 0.000
 	Animate PlayerStatusHealthValueBGminmode		fgcolor		"WHUDblack" 			Linear 0.000 0.000
 }
 
@@ -269,7 +269,7 @@ event HudHealthDyingPulseStop
 	Animate PlayerStatusHealthValueuber		fgcolor		"0 0 0 255"				Linear 0.000 0.000
 	Animate	PlayerStatusHealthBonusImag		Alpha		"0"						Spline 0.125 0.3
 	Animate PlayerStatusHealthValue			fgcolor		"purple1" 				Linear 0.000 0.000
-	Animate PlayerStatusHealthValueBG		fgcolor		"53 1 70 255" 			Linear 0.000 0.000
+	Animate PlayerStatusHealthValueBG		fgcolor		"WHUDdarkpurple" 			Linear 0.000 0.000
 	Animate PlayerStatusHealthValueBGminmode		fgcolor		"WHUDblack" 			Linear 0.000 0.000
 	
 }
@@ -280,7 +280,7 @@ event HudHealthReset
 	Animate PlayerStatusHealthValueuber		fgcolor		"0 0 0 255"				Linear 0.000 0.000
 	Animate	PlayerStatusHealthBonusImag		Alpha		"0"						Linear 0.000 0.000
 	Animate PlayerStatusHealthValue			fgcolor		"purple1" 				Linear 0.000 0.000
-	Animate PlayerStatusHealthValueBG		fgcolor		"53 1 70 255" 			Linear 0.000 0.000
+	Animate PlayerStatusHealthValueBG		fgcolor		"WHUDdarkpurple" 			Linear 0.000 0.000
 	Animate PlayerStatusHealthValueBGminmode		fgcolor		"WHUDblack" 			Linear 0.000 0.000
 }
 

@@ -2,6 +2,7 @@
 #base "../../_welcome/welcome_screen.res"
 #base "../../_version/version_title.res"
 #base "../../_customizations/friends/friends.res"
+#base "mainmenuoverride_backgrounds.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -82,6 +83,52 @@
 			}		
 		}
 		
+
+		"friendsboxbutton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"friendsboxbutton"
+		"xpos"			"0"
+		"ypos"			"-90"
+		"zpos"		"19"
+		"wide"		"21"
+		"tall"		"80"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"west"
+		"paintbackground"	"0"
+		"labelText"			""
+		"command"		"engine hud_friends_on; hud_reloadscheme;toggle mat_aaquality;mat_reloadallmaterials"
+		"sound_depressed"	"UI/sound5.wav"
+		
+		
+		"image_default"		"replay/thumbnails/friends_on"
+		"image_armed"		"replay/thumbnails/friends_on_sel"
+
+		"pin_to_sibling"		"FriendsContainer"
+		"pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+
+		
+		
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"		"21"
+				"tall"		"80"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"replay/thumbnails/friends_on"
+				
+				"image_default"		"replay/thumbnails/friends_on"
+				"image_armed"		"replay/thumbnails/friends_on_sel"
+			}
+	}
+
 		"SaxxySettings"
 		{
 			"xpos"			"0"
@@ -1776,7 +1823,7 @@
 		"tall"			"5"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"WHUDwhite"
+		"bgcolor_override"		"Purple1"
 		"scaleImage"	"1"
 	}	
 

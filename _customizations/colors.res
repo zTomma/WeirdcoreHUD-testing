@@ -1,18 +1,21 @@
-Scheme
+#base "../_customizations/color/primarycolor.res"
+#base "../_customizations/color/secondarycolor.res"
+#base "../_customizations/color/tertiarycolor.res"
+"Scheme"
 {
 	//////////////////////// COLORS ///////////////////////////
 	///////////////here you can change the main colors of the hud and cutomize them, enjoy ;) /////////////////////////
-	Colors
+	"Colors"
 	{
 		
 	////////////// WEIRDCORE HUD'S COLORS////////////////
 		"HUDgray"				"112 112 112 255"
 		"HUDdarkgray"			"79 79 79 255"	
 		"WHUDgray"				"128 128 128 255"
-		"WHUDdarkgray"			"79 79 79 255"
-		"WHUDdarkpurple"		"50 12 66 255"
-		"Purple1"			"163 134 180 255"
-		"violet"			"251 147 252 255"
+		
+	
+		
+		
 		"HUDnull"			"0 0 0 0"
 		"WHUDwhite"			"227 227 227 255"
 		"WHUDblack"			"23 23 23 255"
@@ -24,6 +27,8 @@ Scheme
 		"whuddarkgreen"		"57 93 58 255"
 		"whudred"			"178 77 99 255"
 		"whuddarkred"		"81 49 50 255"
+
+		 
 
 		////////the color down here are used for the statsummary_embedded.resolution
 		
@@ -86,6 +91,88 @@ Scheme
 		"damage47"		"42 54 31 255"	
 		"damage48"		"54 54 31 255"	
 		"damage49"		"54 45 31 255"
+
+		"hudcolor1"			"255 0 0 255"
+		"hudcolor2"			"255 0 96 255"
+		"hudcolor3"			"255 0 156 255"	
+		"hudcolor4"			"255 0 192 255"	
+		"hudcolor5"			"252 0 255 255"
+		"hudcolor6"			"174 0 255 255"	
+		"hudcolor7"			"108 0 255 255"	
+		"hudcolor9"			"18 0 255 255"
+		"hudcolor10"		"0 78 255 255"	
+		"hudcolor11"		"0 132 255 255"
+		"hudcolor12"		"0 192 255 255"	
+		"hudcolor13"		"0 216 255 255"	
+		"hudcolor14"		"0 192 255 255"	
+		"hudcolor15"		"0 228 255 255"
+		"hudcolor16"		"0 255 144 255"
+		"hudcolor17"		"0 255 24 255"
+		"hudcolor18"		"120 255 0 255"	
+		"hudcolor19"		"246 255 0 255"
+		"hudcolor20"		"255 192 0 255"	
+		"hudcolor21"		"255 126 0 255"	
+		"hudcolor22"		"110 0 0 255"	
+		"hudcolor23"		"110 0 41 255"	
+		"hudcolor24"		"110 0 67 255"
+		"hudcolor25"		"110 0 82 255"	
+		"hudcolor26"		"109 0 110 255"	
+		"hudcolor27"		"75 0 110 255"	
+		"hudcolor28"		"47 0 110 255"	
+		"hudcolor29"		"8 0 110 255"
+		"hudcolor30"		"0 34 110 255"
+		"hudcolor31"		"0 57 110 255"
+		"hudcolor32"		"1 70 94 255"
+		"hudcolor33"		"0 93 110 255"
+		"hudcolor34"		"0 82 110 255"
+		"hudcolor35"		"0 98 110 255"	
+		"hudcolor36"		"0 110 62 255"
+		"hudcolor37"		"0 110 10 255"
+		"hudcolor38"		"52 110 0 255"
+		"hudcolor39"		"106 110 0 255"
+		"hudcolor40"		"110 82 0 255"
+		"hudcolor41"		"110 54 0 255"
+		"hudcolor42"		"67 0 0 255"
+		"hudcolor43"		"67 0 25 255"
+		"hudcolor44"		"67 0 21 255"
+		"hudcolor45"		"67 0 50 255"
+		"hudcolor46"		"66 0 67 255"	
+		"hudcolor47"		"46 0 67 255"
+		"hudcolor48"		"28 0 67 255"
+		"hudcolor49"		"5 0 34 255"
+		"hudcolor50"		"0 20 67 255"
+		"hudcolor51"		"0 35 67 255"	
+		"hudcolor52"		"0 50 67 255"
+		"hudcolor53"		"0 40 60 255"
+		"hudcolor54"		"0 50 60 255"
+		"hudcolor55"		"0 37 49 255"
+		"hudcolor56"		"0 67 38 255"	
+		"hudcolor57"		"0 67 6 255"
+		"hudcolor58"		"32 67 0 255"	
+		"hudcolor59"		"65 67 0 255"
+		"hudcolor60"		"67 50 0 255"
+		"hudcolor61"		"67 33 0 255"
+		"hudcolor62"		"23 0 0 255"
+		"hudcolor63"		"23 0 9 255"
+		"hudcolor64"		"23 0 14 255"
+		"hudcolor65"		"23 0 17 255"	
+		"hudcolor66"		"23 0 23 255"
+		"hudcolor67"		"16 0 23 255"
+		"hudcolor68"		"10 0 23 255"
+		"hudcolor69"		"2 0 23 255"
+		"hudcolor70"		"0 7 23 255"
+		"hudcolor71"		"0 12 23 255"
+		"hudcolor72"		"0 17 24 255"
+		"hudcolor73"		"0 19 23 255"
+		"hudcolor74"		"0 17 23 255"
+		"hudcolor75"		"0 21 23 255"
+		"hudcolor76"		"0 23 13 255"
+		"hudcolor77"		"0 23 2 255"
+		"hudcolor78"		"11 23 0 255"	
+		"hudcolor79"		"22 23 0 255"	
+		"hudcolor80"		"23 17 0 255"
+		"hudcolor81"		"23 11 0 255"
+
 
     }
     

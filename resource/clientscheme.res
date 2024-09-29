@@ -24,7 +24,7 @@ Scheme
 		
 
 		// base colors
-		"Orange"							"purple1"
+		"Orange"							"137 69 99 255"
 		"OrangeDim"							"178 82 22 120"
 		"LightOrange"						"188 112 0 128"
 		"GoalOrange"					 	"255 133 0"

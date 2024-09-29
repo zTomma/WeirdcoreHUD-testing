@@ -4,6 +4,7 @@
 "#base"		"../../_customizations/ratio/ratio_health.res"
 
 
+
 "Resource/UI/HudPlayerHealth.res"
 {
 	// player health data
@@ -35,8 +36,8 @@
 		"fieldName"							"PlayerStatusHealthValueBG"
 		"xpos"								"42"
 		"xpos_minmode"						"9999"
-		"ypos"								"-58" [$WIN32]
-		"ypos_minmode"						"-55" [$WIN32]
+		"ypos"								"-58" 
+		"ypos_minmode"						"-55" 
 		"zpos"								"4"
 		"wide"								"200"
 		"tall"								"70"
@@ -44,9 +45,7 @@
 		"enabled"							"1"
 		"labelText"							"%Health%"
 		"textAlignment"						"center"
-		"font_minmode"						"JusticeLaser120"
-		"fgcolor"							"WHUDdarkpurple"
-		"fgcolor_minmode"					"WHUDblack"
+		"fgcolor_override"					"WHUDdarkpurple"
 		"pin_to_sibling"					"PlayerStatusHealthImageBG"
 		"pin_corner_to_sibling"				"PIN_bottomleft"
 		"pin_to_sibling_minmode"			"HudPlayerHealthcontainer_minmode"
@@ -154,30 +153,9 @@
 		"pin_corner_to_sibling"		"PIN_bottomleft"
 		"font"						"JusticeLaser120"
 		"font_minmode"				"JusticeLaser120"
-		"fgcolor"					"WHUDdarkpurple"
 		"fgcolor_minmode"			"WHUDblack"
 	}
-	"PlayerStatusHealthValueBG1"
-	{
-		"ControlName"				"CExLabel"
-		"fieldName"					"PlayerStatusHealthValueBG1"
-		"xpos"						"999"
-		"xpos_minmode"				"-2"
-		"ypos_minmode"				"-72"
-		"ypos"						"170" [$WIN32]
-		"zpos"						"4"
-		"wide"						"200"
-		"tall"						"70"
-		"visible"					"1"
-		"enabled"					"1"
-		"labelText"					"%Health%"
-		"textAlignment"				"center"
-		"blur"						"3"
-		"font"						"JusticeLaserblur120"
-		"fgcolor"					"WHUDblack"
-		"pin_to_sibling"			"PlayerStatusHealthValue"
-		"pin_corner_to_sibling"		"PIN_bottomleft"
-	}
+
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"		"CExLabel"
