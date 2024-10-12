@@ -3059,6 +3059,7 @@ Scheme
 				"name"		"OpenBrush"
 				"tall"		"100"
 				"antialias" "1"
+				"yres"            "0 10000"
 			} 
 		}
 		"OpenBrushRegular5"
@@ -3087,6 +3088,7 @@ Scheme
 				"name"		"OpenBrush"
 				"tall"		"50"
 				"antialias" "1"
+				"yres"            "0 10000"
 			}
 		}
 		"OpenBrushRegular32"
@@ -3143,6 +3145,7 @@ Scheme
 				"name"		"OpenBrush"
 				"tall"		"80"
 				"antialias" "1"
+				"yres"            "0 10000"
 			}
 		}
 		"OpenBrushRegular15"
@@ -3234,6 +3237,7 @@ Scheme
 				"name"		"Dogica bold"
 				"tall"		"17"
 				"antialias" "1"
+				"yres"            "0 10000"
 			}
 		}
 			"pixelbolt10"
@@ -3273,6 +3277,7 @@ Scheme
 				"name"		"Dogica bold"
 				"tall"		"30"
 				"antialias" "1"
+				
 			}
 		}
 			"pixelbolt40"
@@ -3282,6 +3287,7 @@ Scheme
 				"name"		"Dogica bold"
 				"tall"		"40"
 				"antialias" "1"
+				"yres"            "0 10000"
 			}
 		}
 		
@@ -3331,6 +3337,7 @@ Scheme
 				"name"		"DS-Digital Bold Italic"
 				"tall"		"40"
 				"antialias" "1"
+				
 			}
 		}
 		
@@ -3341,6 +3348,7 @@ Scheme
 				"name"		"DS-Digital Bold Italic"
 				"tall"		"100"
 				"antialias" "1"
+				"yres"            "0 10000"
 			}
 		}
 		
@@ -3542,6 +3550,7 @@ Scheme
 				"name"		"Upheaval TT -BRK-"
 				"tall"		"60"
 				"antialias" "1"
+				"yres"            "0 10000"
 			}
 		}
 		
@@ -3550,8 +3559,9 @@ Scheme
 			"1"
 			{
 				"name"		"Upheaval TT -BRK-"
-				"tall"		"80"
+				"tall"		"50"
 				"antialias" "1"
+				"yres"            "0 10000"
 			}
 		}
 		
@@ -3560,8 +3570,9 @@ Scheme
 			"1"
 			{
 				"name"		"Upheaval TT -BRK-"
-				"tall"		"120"
+				"tall"		"60"
 				"antialias" "1"
+				"yres"            "0 10000"
 			}
 		}
 
@@ -3882,6 +3893,7 @@ Scheme
 				"name"		"Hot Rush Sans Striped Italic"
 				"tall"		"100"
 				"antialias" "1"
+				"yres"            "0 10000"
 			}
 		}	
 	"HotRushStripped200"
@@ -3891,6 +3903,7 @@ Scheme
 				"name"		"Hot Rush Sans Striped Italic"
 				"tall"		"200"
 				"antialias" "1"
+				"yres"            "0 10000"
 			}
 		}	
 		"HotRushStripped500"
@@ -3898,8 +3911,9 @@ Scheme
 			"1"
 			{
 				"name"		"Hot Rush Sans Striped Italic"
-				"tall"		"500"
+				"tall"		"150"
 				"antialias" "1"
+				"yres"            "0 10000"
 			}
 		}
 		
@@ -4010,6 +4024,7 @@ Scheme
 				"name"		"Hot Rush Sans Italic"
 				"tall"		"100"
 				"antialias" "1"
+				"yres"            "0 10000"
 			}
 		}	
 		
@@ -4018,8 +4033,9 @@ Scheme
 			"1"
 			{
 				"name"		"Hot Rush Sans Italic"
-				"tall"		"500"
+				"tall"		"150"
 				"antialias" "1"
+				"yres"            "0 10000"
 			}
 		}	
 		
@@ -4049,6 +4065,7 @@ Scheme
 				"name"		"Hot Rush Sans Italic"			
 				"tall"		"100"
 				"antialias" "1"
+				"yres"            "0 10000"
 			}
 		}	
 		
@@ -4101,6 +4118,7 @@ Scheme
 				"name"		"Justice Laser"
 				"tall"		"120"
 				"antialias" "1"
+				"yres"            "0 10000"
 			}
 		}		
 		
@@ -4152,6 +4170,7 @@ Scheme
 				"name"		"Justice Halftone"
 				"tall"		"120"
 				"antialias" "1"
+				"yres"            "0 10000"
 			}
 		}		
 
@@ -4172,6 +4191,7 @@ Scheme
 				"name"		"Justice Halftone"
 				"tall"		"120"
 				"scanlines"	"2"
+				
 			}
 		}		
 		
